@@ -4,8 +4,18 @@ Data Structure and Algorithm Implemented Using Java
 # DATA STRUCTURE
       
       1 - Linear
+            a- SnglyLinkedList
+            b- Doubly LinkedList
+            c- Circular LinkedList
+            d- Stack (Implementation with Array)
+            e- Stack (Implementation with LinkedList)
+            f -Queue (Implementation with Array)
+            g -Queue (Implementation with LinkedList)
+            
       2 - Tree
-      3 - Graph
+            a - Binary Search Tree (Balanced)
+            b - B- Tree
+     
       
       
 # ALGORITHM
