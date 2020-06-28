@@ -3,9 +3,7 @@ package singlyLinkedList;
 public class LinkedList {
 	Node head;
 	
-	/*
-	 * Insertion in linked list at the beginning/start
-	 * */
+	/*		Insertion in linked list at the beginning/start		*/
 	public void insertAtStart(int data) {
 		
 		Node newNode = new Node(data);
@@ -21,9 +19,7 @@ public class LinkedList {
 	}
 	
 	
-	/*
-	 * Insertion in linked list at last node/ tail.
-	 * */
+	/* Insertion in linked list at last node/ tail. */
 	public void insertAtEnd(int data) {
 		
 		Node newNode = new Node(data);
@@ -40,6 +36,7 @@ public class LinkedList {
 		}
 	}
 	
+	/*Insertion in linked List according to the index provided*/
 	public  void insertAtIndex(int index, int data) {
 		//Position 0 is 1
 		Node newNode = new Node(data);
@@ -53,9 +50,8 @@ public class LinkedList {
 		temp.next =newNode;
 		newNode.next = t;
 	}
-//	public static LinkedList()
-	
-	
+
+	/*Remove method to remove */
 	public void remove(int key) throws Exception {
 	
 		Node temp = head, prev = null; 
@@ -79,6 +75,7 @@ public class LinkedList {
         prev.next = temp.next; 
     } 
 	
+	/*Print method to print */
 	public void print()
 	{
 		Node node = head;
