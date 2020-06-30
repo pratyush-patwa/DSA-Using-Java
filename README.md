@@ -13,8 +13,7 @@ Data Structure and Algorithm Implemented Using Java
             g -Queue (Implementation with LinkedList)
             
       2 - Tree
-            a - Binary Search Tree (Balanced)
-            b - B- Tree
+            a - Binary Search Tree
      
       
       
